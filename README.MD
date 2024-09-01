@@ -1,5 +1,4 @@
 # 목표
-
 ---
 1. 스프링 시큐리티 개념과 사용법을 익힌다.
 2. 여러 방식의 인증/인가 기능을 직접 구현하며 여러 관점에서 비교해보기.
@@ -43,10 +42,11 @@ dependencies {
 
 ---
 # 학습 내용
-- [스프링 시큐리티 개념](info%2Fchp1_concept.md)
-- [스프링 시큐리티 FilterChain](info%2Fchp2_SecurityFilterChain.md)
+✅⬜
+- ✅[스프링 시큐리티 개념](info%2Fchp1_concept.md)
+- ✅[스프링 시큐리티 FilterChain](info%2Fchp2_SecurityFilterChain.md)
 - [스프링 시큐리티 Config 옛버전](info%2Fchp3_manual1.md)
-- [스프링 시큐리티 Config 신버전](info%2Fchp4_manual2.md)
+- ✅[스프링 시큐리티 Config 신버전](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법1.커스텀 로그인 설정](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법2.BCrypt 암호화 메서드](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법3.DB 설정](info%2Fchp4_manual2.md)
@@ -60,6 +60,7 @@ dependencies {
 - [스프링 시큐리티 사용법11.HTTP basic 방식 로그인](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법12.Role Hierarchy '계층 권한'](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법13.Role Hierarchy 6.3x Deprecated 해결](info%2Fchp4_manual2.md)
+
 ---
 ### REF
 - 💡[개발자유미 유튜브](https://www.youtube.com/watch?v=y0PXQgrkb90&list=PLJkjrxxiBSFCKD9TRKDYn7IE96K2u3C3U&index=1)
