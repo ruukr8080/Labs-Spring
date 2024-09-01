@@ -61,11 +61,6 @@ dependencies {
 - [스프링 시큐리티 사용법12.Role Hierarchy '계층 권한'](info%2Fchp4_manual2.md)
 - [스프링 시큐리티 사용법13.Role Hierarchy 6.3x Deprecated 해결](info%2Fchp4_manual2.md)
 ---
-
-## 시큐리티 동작 원리
-
-
-
 ### REF
 - 💡[개발자유미 유튜브](https://www.youtube.com/watch?v=y0PXQgrkb90&list=PLJkjrxxiBSFCKD9TRKDYn7IE96K2u3C3U&index=1)
 - 💡[코딩과비지니스 블로그](https://coding-business.tistory.com/67)
