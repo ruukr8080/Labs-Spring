@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Projects-Practice-spring.iml" filepath="$PROJECT_DIR$/.idea/Projects-Practice-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JWT/src/main/jwt.iml" filepath="$PROJECT_DIR$/JWT/src/main/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HandsOn-Spring/src/main/security.iml" filepath="$PROJECT_DIR$/HandsOn-Spring/src/main/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HandsOn-Spring/src/test/test2.iml" filepath="$PROJECT_DIR$/HandsOn-Spring/src/test/test2.iml" />
     </modules>
   </component>
 </project>
