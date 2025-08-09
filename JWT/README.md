@@ -193,7 +193,7 @@ public class JoinService {
 }
 ```
 
-</dtails>
+</details>
 
 ### 6. JoinController 생성
 
