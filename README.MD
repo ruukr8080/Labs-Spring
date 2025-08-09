@@ -15,7 +15,6 @@
         └─📂Socket
 
 ```
-> started-at : 25-08-02 
 
 ### 🌴Reference
 [`docs.spring.io`](https://docs.spring.io/spring-security/reference/servlet/architecture.html#servlet-filterchainproxy)   
