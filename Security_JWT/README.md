@@ -1,4 +1,6 @@
 ## 프로젝트 생성.
+**RestApi-server**
+
 `java 21` |  `spring 3.4.7`  
 <details><summary> dependencies </summary>
 
@@ -75,11 +77,17 @@ password=1234
 </details>
 
 ---
-## 구현 기능
-- 인증 : 로그인
-- 인가 : JWT로 경로별 접근 권한 설정
-- 회원가입 
+
+## 목표
+### JWT 인증방식 이해 :
+`JWT인증방식`에 의한 시큐리티 동작 원리 이해.
+
+### Jwt 기능 구현 실습 : 
+DB기반 검증 / filter / handler / session attribute       
+/ [회원가입 / 로그인(인증) / 인가] / CORS 연동  
+
+
+### 보안 심화 학습 :
+보안을 중점으로 한 개발철학 확립
 
 ---
-## 목표
-> 
