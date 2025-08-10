@@ -1,5 +1,4 @@
-## 프로젝트 생성.
-`java 21` |  `spring 3.4.7`  
+`java 21` |  `spring 3.4.7`
 <details><summary> dependencies </summary>
 
 ```txt
@@ -15,10 +14,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     runtimeOnly 'com.mysql:mysql-connector-j'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
-    implementation("io.jsonwebtoken:jjwt-api:0.12.6")
-    implementation("io.jsonwebtoken:jjwt-impl:0.12.6")
-    implementation("io.jsonwebtoken:jjwt-jackson:0.12.6")
 }
 ```
 
@@ -47,27 +42,29 @@ spring:
         format_sql: true
     show-sql: true
     open-in-view: false
-  jwt:
-    secret: "jjjjjjjjjjjjwwwwwwwwwwwwwwtttttttttttttttjjjjjjjjjjjjwwwwwwwwwwwwwwtttttttttttttttjjjjjjjjjjjjwwwwwwwwwwwwwwtttttttttttttttjjjjjjjjjjjjwwwwwwwwwwwwwwtttttttttttttttjjjjjjjjjjjjwwwwwwwwwwwwwwttttttttttttttt"
-    expiration: 3600
 ```
 
 </details>
 <details><summary> Http request 소스 </summary>
 
 ```txt
-POST http://localhost:8080/join
-Content-Type: application/x-www-form-urlencoded
+POST http://localhost:8080/joinProc
+Content-Type: application/json
 
-username=admin &
-password=1234
+{
+"username"="admin",
+"password"="1234"
+}
+
 
 ###
-POST http://localhost:8080/login
-Content-Type: application/x-www-form-urlencoded
+POST http://localhost:8080/loginProc
+Content-Type: application/json
 
-username=admin &
-password=1234
+{
+"username"="admin",
+"password"="1234"
+}
 
 ###
 ```
@@ -75,11 +72,18 @@ password=1234
 </details>
 
 ---
-## 구현 기능
-- 인증 : 로그인
-- 인가 : JWT로 경로별 접근 권한 설정
-- 회원가입 
 
----
 ## 목표
-> 
+#### Filter :
+> Spring-Security의 핵심 개념 이해.
+#### Security-Basic :
+> { 인증 / 인가 / 저장 / 중복 검증 } 구현.
+#### Session : 
+> 세션 소멸 시간, 다중 로그인 통제(아이디당 세션 생성 갯수)
+#### CSRF :
+> CSRF 개념 이해와 사용법
+#### HttpBasic :
+> `HttpBasic` 인증 방식의 이해와 활용.
+#### InMemoryUser 생성,관리 : (redis 아님)
+> `InMemoryUserDetailsManager`로 InMemoryUser 등록
+ 
