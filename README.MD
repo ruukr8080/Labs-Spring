@@ -5,8 +5,13 @@
    │    ├─📂CRUD
    │    ├─📂Data-Relation
    │    ├─📂JPA
-   ├─📁Security
-   │    ├─📂Filter
+   ├─📁Security 
+   │    ├─📂Basic✅
+   │    │    ├─📂Http보안개념 학습✅
+   │    │    │    ├─📂Filter✅
+   │    │    │    ├─📂Session✅
+   │    │    ├─📂formLogin인증방식 구현✅
+   │    │    ├─📂HttpBasic인증방식 구현✅
    │    ├─📂Jwt
    │    ├─📂Oauth2
    ├─📁Batch
