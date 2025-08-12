@@ -83,9 +83,8 @@ password=1234
 `JWT인증방식`에 의한 시큐리티 동작 원리 이해.
 
 ### Jwt 기능 구현 실습 : 
-DB기반 검증 / filter / handler / session attribute       
-/ [회원가입 / 로그인(인증) / 인가] / CORS 연동  
-
+DB기반 검증 / filter / handler / session attribute
+/ [회원가입 / 로그인(인증) / 인가] / CORS 연동
 
 ### 보안 심화 학습 :
 보안을 중점으로 한 개발철학 확립
